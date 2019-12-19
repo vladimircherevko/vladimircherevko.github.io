@@ -11,17 +11,14 @@
 <link href="./assets/css/app.css" rel="stylesheet"></head>
 
 <body>
+
   <!-- modal -->
   <div class="d-none" id="modal">
     <div class="container px-0 content">
-      <h3 class="title"></h3>
-      <button class="d-none d-md-block close-side" data-modal="close">
-        <p>&otimes;</p>
-      </button>
+      <h3 class="p-3 title"></h3>
+      <button class="d-none d-md-block close-side" data-modal="close">&otimes;</button>
       <div class="py-3 body"></div>
-      <button class="d-md-none close-center" data-modal="close">
-        <p>Закрыть&nbsp;&nbsp;&nbsp;&timesb;</p>
-      </button>
+      <button class="d-md-none close-center" data-modal="close">Закрыть&nbsp;&nbsp;&nbsp;&timesb;</button>
     </div>
   </div><!-- /modal -->
 
@@ -35,7 +32,7 @@
             <nav>
               <button onclick="menu.classList.toggle('d-block')">
                 <img class="d-none d-md-block" src="./assets/img/header/logo.png" alt="Logo">
-                <img class="d-md-none" src="./assets/img/header/menu-mini.jpg" alt="Logo">
+                <span class="d-md-none">&#9776;</span>
               </button>
               <ul class="d-none" id="menu" onclick="this.classList.remove('d-block')">
                 <li><a href="#about">О нас</a></li>
@@ -101,19 +98,16 @@
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 col-lg-4">
-          <div class="title">5 лет
-          </div>
-          <div class="mb-2">На рынке изделий из гофрокартона</div>
+          <h2 class="title">5 лет</h2>
+          <p class="mb-2">На рынке изделий из гофрокартона</p>
         </div>
         <div class="col-12 col-lg-4">
-          <div class="title">до&nbsp;5&nbsp;000&nbsp;000&nbsp;м<sup>2</sup>
-          </div>
-          <div class="mb-2">Ежемесячный объем производства гофрокартона</div>
+          <h2 class="title">до&nbsp;5&nbsp;000&nbsp;000&nbsp;м<sup>2</sup></h2>
+          <p class="mb-2">Ежемесячный объем производства гофрокартона</p>
         </div>
         <div class="col-12 col-lg-4">
-          <div class="title">4 000 м<sup>2</sup>
-          </div>
-          <div class="mb-2">Площадь склада</div>
+          <h2 class="title">4 000 м<sup>2</sup></h2>
+          <p class="mb-2">Площадь склада</p>
         </div>
       </div>
 
@@ -122,49 +116,42 @@
           <div class="card">
             <img src="./assets/img/about/factory.png" alt="&#9745;">
             <p class="text"><b>Производство</b><br>
-              4 технологические линии спoсобны выполнить любой заказ любой сложности
-            </p>
+              4 технологические линии спoсобны выполнить любой заказ любой сложности</p>
           </div>
         </div>
         <div class="col-12 col-md-6 col-xl-4 mb-4">
           <div class="card">
             <img src="./assets/img/about/free.png" alt="&#9745;">
             <p class="text"><b>Бесплатные образцы</b><br>
-              Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку
-            </p>
+              Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку </p>
           </div>
         </div>
         <div class="col-12 col-md-6 col-xl-4 mb-4">
           <div class="card">
             <img src="./assets/img/about/stabil.png" alt="&#9745;">
             <p class="text"><b>Стабильное качество</b><br>
-              Собственная лаборатория контролирует качество на каждом этапе производства
-            </p>
+              Собственная лаборатория контролирует качество на каждом этапе производства </p>
           </div>
         </div>
         <div class="col-12 col-md-6 col-xl-4 mb-4">
           <div class="card">
             <img src="./assets/img/about/inshuer.png" alt="&#9745;">
             <p class="text"><b>Страховой запас</b><br>
-              Можем хранить запас гофропродукции складах и поставлять его партиями
-            </p>
+              Можем хранить запас гофропродукции складах и поставлять его партиями</p>
           </div>
         </div>
         <div class="col-12 col-md-6 col-xl-4 mb-4">
           <div class="card">
             <img src="./assets/img/about/flex.png" alt="&#9745;">
-            <p class="text">
-              <b">Флексопечать</b><br>
-                Возможно нанесение вашего логотипа, текста или манипуляционных знаков
-            </p>
+            <p class="text"><b>Флексопечать</b><br>
+              Возможно нанесение вашего логотипа, текста или манипуляционных знаков</p>
           </div>
         </div>
         <div class="col-12 col-md-6 col-xl-4 mb-4">
           <div class="card">
             <img src="./assets/img/about/mixing.png" alt="&#9745;">
             <p class="text"><b>Гидрофобные добавки</b><br>
-              На производстве реализована технология, которая позволяет гофрокартону стать прочнее
-            </p>
+              На производстве реализована технология, которая позволяет гофрокартону стать прочнее </p>
           </div>
         </div>
       </div>
@@ -232,17 +219,17 @@
         <div class="col-12 col-md-10 col-lg-7 offset-md-1 offset-lg-0 order-12 order-lg-1">
           <div class="slider">
             <div class="show">
-              <img src="./assets/img/manuf/slide-1.png">
-              <img src="./assets/img/manuf/slide-2.png">
-              <img src="./assets/img/manuf/slide-3.png">
-              <img src="./assets/img/manuf/slide-4.png">
+              <img src="./assets/img/manuf/slide-1.png" alt="foto">
+              <img src="./assets/img/manuf/slide-2.png" alt="foto">
+              <img src="./assets/img/manuf/slide-3.png" alt="foto">
+              <img src="./assets/img/manuf/slide-4.png" alt="foto">
             </div>
             <div class="control">
               <button class="prev">&lsaquo;</button>
-              <div class="item"><img src="./assets/img/manuf/slide-1.png"></div>
-              <div class="item"><img src="./assets/img/manuf/slide-2.png"></div>
-              <div class="item"><img src="./assets/img/manuf/slide-3.png"></div>
-              <div class="item"><img src="./assets/img/manuf/slide-4.png"></div>
+              <div class="item"><img src="./assets/img/manuf/slide-1.png" alt="@"></div>
+              <div class="item"><img src="./assets/img/manuf/slide-2.png" alt="@"></div>
+              <div class="item"><img src="./assets/img/manuf/slide-3.png" alt="@"></div>
+              <div class="item"><img src="./assets/img/manuf/slide-4.png" alt="@"></div>
               <button class="next">&rsaquo;</button>
             </div>
           </div>
@@ -306,7 +293,7 @@
   <!-- responses -->
   <section class="py-5" id="responses">
     <div class="container">
-      <div class="title-w">Отзывы о сотрудничестве</div>
+      <h1 class="title-w">Отзывы о сотрудничестве</h1>
       <div class="row">
         <div class="col mb-2">
           <img src="./assets/img/responses/sertif-1.png" alt="1">
@@ -361,6 +348,25 @@
 
   <!-- arrow for scroll to header -->
   <div id="arrow" title="Наверх" hidden>&#8679;</div>
+
+  <!-- style images  -->
+  <style>
+    .title-w::after {
+      content: url("./assets/img/wavy-line..png");
+    }
+
+    #modal .body {
+      background: #373737 url('./assets/img/bg-modal.png') center/cover;
+    }
+
+    #screen1 {
+      background: #373737 url("./assets/img/screen1/bg-1.png") center/cover;
+    }
+
+    #screen2 {
+      background: #373737 url("./assets/img/bg-2.png") center/cover;
+    }
+  </style>
 
 <script type="text/javascript" src="./assets/js/app.js"></script></body>
 
