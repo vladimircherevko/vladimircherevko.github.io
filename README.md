@@ -8,7 +8,7 @@ Source dev version can be seen [here](https://github.com/vladimircherevko/works/
 This site project is using ES6    
 
 ## What is inside
-Just a list of works (each of them can be found in `https://github.com/vladimircherevko/works/`) and contacts
+Just a list of works (each of them can be found in [`https://github.com/vladimircherevko/works/`](https://github.com/vladimircherevko/works/)) and contacts
 
 ## Used technologies
 Webpack 4 + Bable 7  
